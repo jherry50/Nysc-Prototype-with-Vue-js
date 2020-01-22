@@ -24,10 +24,7 @@
                 
             </form>
         </div>
-        <div>
-            Fa
-        </div>
-
+        
     </div>
 
 </template>
