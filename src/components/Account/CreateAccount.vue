@@ -15,7 +15,7 @@
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" class="form-control" required>
-                </div>
+                </div> 
                 <div class="form-group">
                     <label for="confirmPassword">Confirm Password</label>
                     <input type="password" id="confirmPassword" class="form-control" required>
@@ -23,9 +23,6 @@
                 <button class="btn btn-success" @click="chgStp"> Create Account</button>
                 
             </form>
-        </div>
-        
-    </div>
 
 </template>
 
@@ -36,14 +33,7 @@ export default {
             step: 2,
         }
     },
-    methods: {
-        chgStp(){
-            this.step -=1
-            this.$emit('stepMinus', this.step)
-        }
-    }
-    
-    
+        
 }
 </script>
 
