@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # nyscproto
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# Nysc-Prototype-with-Vue-js
+>>>>>>> ce9bfabf0ff25b868e782cca2d7edac61d022ae0
